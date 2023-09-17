@@ -1,0 +1,18 @@
+
+var layout = {
+    xaxis: { title: "DateTime"},
+    yaxis: {/*range: [5, 16],*/ title: "Voltage"},
+    title: "Volatge Graph",
+  };
+
+  var layout2 = {
+    xaxis: { title: "DateTime"},
+    yaxis: {/*range: [5, 16],*/ title: "Generator State"},
+    title: "Generator graph",
+  };
+
+Plotly.newPlot('myDiv', data , layout);
+Plotly.newPlot('myDiv2', data2 , layout2);
+</script>
+</body>
+</html>
